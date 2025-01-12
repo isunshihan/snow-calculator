@@ -1,5 +1,7 @@
 # Snow Day Calculator: Predict School Closures Due to Snow
 
+[中文文档](./README_CN.md)
+
 The **Snow Day Calculator** is a web application designed to predict the likelihood of school closures due to snow. By leveraging real-time weather data from the OpenWeatherMap API, this tool provides users with an estimate of the chances of a snow day, helping students, parents, and teachers prepare for potential disruptions.
 
 ## Features
