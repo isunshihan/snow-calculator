@@ -65,6 +65,42 @@ The Snow Day Calculator works by:
     npm run dev
     ```
 
+## Deployment
+
+This project uses Vercel for deployment.
+
+### Deployment Steps
+
+1.  Register for a [Vercel](https://vercel.com) account
+
+2.  Install Vercel CLI (optional)
+```bash
+npm install -g vercel
+```
+
+3.  Deployment methods:
+
+#### Method 1: Through Vercel Website
+1.  Import your GitHub repository on Vercel
+2.  Add environment variable `VITE_OPENWEATHER_API_KEY`
+3.  Click deploy
+
+#### Method 2: Through Command Line
+1.  Login to Vercel
+```bash
+vercel login
+```
+
+2.  Deploy the project
+```bash
+vercel
+```
+
+### Notes
+
+-   Make sure to add environment variable `VITE_OPENWEATHER_API_KEY` in Vercel project settings
+-   It is recommended to enable automatic deployment, so that the website will be updated automatically every time you push code to the main branch
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or bug reports, please open an issue or submit a pull request.
