@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           
           {/* Copyright */}
           <div className="text-gray-500 text-sm">
-            Snow Day Calculator 2025
+            Snow Day Calculator © 2025
           </div>
         </div>
       </div>
